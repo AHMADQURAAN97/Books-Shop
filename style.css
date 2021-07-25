@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('ba.jpg'); height: auto; width: auto;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+header h1 {
+padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #eee
+}
+header {
+    background-color: rgba(64, 34, 24,0.7);
+}
+
+
+#container {
+    display:block;
+    
+}
+/* =================Form======================= */
+
+#myform {
+
+    width: 300px;
+    padding: 20px;
+    background-color:rgba(64, 34, 24,0.7); 
+    margin-top: 100px;
+    padding: 50px;
+   
+}
+
+label {
+color: #eee;
+padding-right: 40px;
+
+}
+
+input[type=text] {
+
+  width: 150px;
+  margin: 5px;
+}
+
+select {
+
+    width: 150px; 
+    margin: 5px;
+  }
+input[type=submit]{
+margin-left: 125px;
+width: 150px;
+background-color:  #C68B59;
+color:#eee ;
+
+}
+
+
+
+
+/* ==================table=============== */
+
+table {
+
+    margin-left: 500px;
+
+    color:#eee;
+    background-color:rgba(64, 34, 24,0.7) ;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+td , th {
+
+    padding: 40px;
+    border: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+footer {
+
+    background-color:rgba(64, 34, 24,0.7) ;
+}
+
+footer H4 {
+
+    text-align: center;
+    color:#eee;
+    height: 100px;
+    
+    margin-top: 190px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
